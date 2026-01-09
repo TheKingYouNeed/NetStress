@@ -40,11 +40,28 @@ pip install requests
 ### Usage
 
 ```bash
-# Run the stress test
+# Standard version (10 threads)
 python netstress.py
+
+# EXTREME version (250 async connections, 5 CDN sources)
+python netstress_extreme.py
 
 # Press Ctrl+C to stop at any time
 ```
+
+## 🔥 EXTREME Version
+
+The `netstress_extreme.py` offers maximum bandwidth saturation:
+
+| Feature | Standard | EXTREME |
+|---------|----------|---------|
+| Connections | 10 | 250 |
+| CDN Sources | 1 | 5 |
+| Technology | Threading | Async I/O (aiohttp) |
+| Live Speed Monitor | ❌ | ✅ |
+| Chunk Size | 1MB | 2MB |
+
+**Requirements for EXTREME:** `pip install aiohttp`
 
 ### One-Click Stop (Windows)
 Double-click `STOP_STRESS_TEST.bat` to instantly terminate all running tests.
