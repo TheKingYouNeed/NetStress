@@ -2,7 +2,7 @@
 """
 NetStress - High-Performance Network Bandwidth Stress Tester
 A lightweight tool to saturate network bandwidth for testing purposes.
-https://github.com/YOUR_USERNAME/NetStress
+https://github.com/TheKingYouNeed/NetStress
 """
 
 import time

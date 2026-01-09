@@ -30,7 +30,7 @@ A lightweight, cross-platform Python tool for **stress testing network bandwidth
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/NetStress.git
+git clone https://github.com/TheKingYouNeed/NetStress.git
 cd NetStress
 
 # Install dependencies
